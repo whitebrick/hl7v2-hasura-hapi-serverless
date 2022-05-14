@@ -1,0 +1,142 @@
+{
+  "ADT_A01": {
+    "MSH": {
+      "MSH.1": "|",
+      "MSH.2": "^~\\&",
+      "MSH.4": {
+        "HD.1": "MIDLAND HLTH CTR",
+        "HD.2": "9876543210",
+        "HD.3": "NPI"
+      },
+      "MSH.5": {
+        "HD.1": "State_SS"
+      },
+      "MSH.6": {
+        "HD.1": "State_Public_Health"
+      },
+      "MSH.7": {
+        "TS.1": "201102091114"
+      },
+      "MSH.9": {
+        "MSG.1": "ADT",
+        "MSG.2": "A04",
+        "MSG.3": "ADT_A01"
+      },
+      "MSH.10": "201102091114-0078",
+      "MSH.11": {
+        "PT.1": "P"
+      },
+      "MSH.12": {
+        "VID.1": "2.5.1"
+      },
+      "MSH.21": {
+        "EI.1": "ExampleEntityID"
+      }
+    },
+    "EVN": {
+      "EVN.2": {
+        "TS.1": "201102091114"
+      },
+      "EVN.7": {
+        "HD.1": "MIDLAND HLTH CTR",
+        "HD.2": "9876543210",
+        "HD.3": "NPI"
+      }
+    },
+    "PID": {
+      "PID.1": "1",
+      "PID.3": {
+        "CX.1": "20060012168",
+        "CX.5": "MR",
+        "CX.6": {
+          "HD.1": "MIDLAND HLTH CTR",
+          "HD.2": "9876543210",
+          "HD.3": "NPI"
+        }
+      },
+      "PID.5": {
+        "XPN.1": {
+          "FN.1": "EVERYPERSON"
+        },
+        "XPN.2": "ANN",
+        "XPN.3": "A",
+        "XPN.7": "L"
+      },
+      "PID.8": "F",
+      "PID.10": {
+        "CE.1": "2106-3",
+        "CE.2": "White",
+        "CE.3": "CDCREC"
+      },
+      "PID.11": {
+        "XAD.4": "13",
+        "XAD.5": "30341",
+        "XAD.6": "USA",
+        "XAD.7": "C"
+      },
+      "PID.22": {
+        "CE.1": "2186-5",
+        "CE.2": "Not Hispanic",
+        "CE.3": "CDCREC"
+      }
+    },
+    "PV1": {
+      "PV1.2": "E",
+      "PV1.4": "E",
+      "PV1.14": "1",
+      "PV1.19": {
+        "CX.1": "20110209_0064",
+        "CX.5": "VN"
+      },
+      "PV1.44": {
+        "TS.1": "20110217144208"
+      }
+    },
+    "PV2": {
+      "PV2.3": {
+        "CE.1": "9131",
+        "CE.2": "ABRASION FOREARM-INFECT",
+        "CE.3": "I9CDX"
+      }
+    },
+    "OBX": [
+      {
+        "OBX.1": "1",
+        "OBX.2": "XAD",
+        "OBX.3": {
+          "CE.1": "SS002",
+          "CE.2": "TREATING FACILITY LOCATION",
+          "CE.3": "PHINQUESTION"
+        },
+        "OBX.5": {
+          "XAD.4": "13",
+          "XAD.5": "30341",
+          "XAD.6": "USA",
+          "XAD.7": "C"
+        },
+        "OBX.11": "F",
+        "OBX.14": {
+          "TS.1": "201102091114"
+        }
+      },
+      {
+        "OBX.1": "2",
+        "OBX.2": "CWE",
+        "OBX.3": {
+          "CE.1": "SS003",
+          "CE.2": "FACILITY / VISIT TYPE",
+          "CE.3": "PHINQUESTION"
+        },
+        "OBX.5": {
+          "CWE.1": "1108-0",
+          "CWE.2": "EMERGENCY DEPARTMENT",
+          "CWE.3": "HSLOC"
+        },
+        "OBX.11": "F",
+        "OBX.14": {
+          "TS.1": "201102091114"
+        }
+      }
+    ]
+  }
+}
